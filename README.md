@@ -326,7 +326,7 @@ nmap -sn 172.16.0.0/12
 ## 🔗 Additional Resources
 
 - 📺 **Watch the Tutorial:** [IP Addressing & Subnetting — Full Walkthrough in Urdu/Hindi](https://www.youtube.com/@MuhammadAqibTayyab)
-- 📊 **Original Deck:** [Download Presentation (PPTX)](./assets/IP_Addressing_Subnetting_CIDR_Aqib.pptx)
+- 📊 **Original Deck:** [Download Presentation (PPTX)]([./assets/IP_Addressing_Subnetting_CIDR_Aqib.pptx](https://github.com/AqibTayyab/IP-Addressing-Subnetting-CIDR/blob/main/IP_Addressing_Subnetting_CIDR_Aqib.pptx))
 - 🌐 **Previous Module:** [TCP & UDP: Protocol Deep-Dive](https://github.com/AqibTayyab/TCP-UDP-Protocol-Deep-Dive)
 - 🛡️ **Series Start:** [OSI Model: Network Architecture & Security Deep-Dive](https://github.com/AqibTayyab/OSI-Model-Security-Deep-Dive)
 - 💼 **Connect:** [LinkedIn: Muhammad Aqib Tayyab](https://www.linkedin.com/in/muhammad-aqib-tayyab-ethical-hacker/)
