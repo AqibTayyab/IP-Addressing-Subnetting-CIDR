@@ -1,4 +1,4 @@
-# 🌐 IP Addressing, Subnetting & CIDR — Security Deep-Dive
+# IP Addressing, Subnetting & CIDR — Security Deep-Dive
 
 ![Topic](https://img.shields.io/badge/Topic-IP_Addressing_%26_Subnetting-blue?style=for-the-badge&logo=cloudflare)
 ![Phase](https://img.shields.io/badge/Phase_1-Networking_Part_3-informational?style=for-the-badge)
@@ -13,7 +13,7 @@ A security-focused deep dive into **IPv4 addressing**, **RFC 1918 private ranges
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [What is an IP Address?](#what-is-an-ip-address)
 - [Public vs Private IP — RFC 1918](#public-vs-private-ip-rfc-1918)
@@ -27,7 +27,7 @@ A security-focused deep dive into **IPv4 addressing**, **RFC 1918 private ranges
 
 ---
 
-## 🧩 What is an IP Address?
+## What is an IP Address?
 
 **An IP address** is a unique logical identifier assigned to every device on a network. Think of it as a postal address for your device — without it, packets have nowhere to go.
 
@@ -54,7 +54,7 @@ Total address space: **2³² = ~4.3 Billion addresses**
 
 ---
 
-## 🔒 Public vs Private IP — RFC 1918
+## Public vs Private IP — RFC 1918
 
 ### Private IP Ranges (Not Routable on the Internet)
 
@@ -86,7 +86,7 @@ Total address space: **2³² = ~4.3 Billion addresses**
 
 ---
 
-## 💻 IP Practical: Kali Terminal
+## IP Practical: Kali Terminal
 
 Run these on your Kali machine. Understand what every line means.
 
@@ -134,7 +134,7 @@ Look at the `inet` line. Example output: `192.168.1.100/24` — that `/24` is su
 
 ---
 
-## 🔀 What is Subnetting?
+## What is Subnetting?
 
 **Subnetting** is dividing a large IP network into smaller sub-networks. Each subnet is an isolated broadcast domain.
 
@@ -173,7 +173,7 @@ graph TD
 
 ---
 
-## 📐 CIDR Notation
+## CIDR Notation
 
 **CIDR (Classless Inter-Domain Routing)** was introduced by IETF in 1993 to replace the rigid Class A/B/C system.
 
@@ -225,7 +225,7 @@ graph TD
 
 ---
 
-## 🧪 Subnetting Practical: Lab
+## Subnetting Practical: Lab
 
 **Tools:** `ipcalc` + `nmap` on Kali Linux against Metasploitable 2
 
@@ -308,7 +308,7 @@ nmap -sn 172.16.0.0/12
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 > [!IMPORTANT]
 > **Map the network. Own the network.** Every offensive and defensive operation begins with understanding the address space. CIDR literacy is not optional.
@@ -323,7 +323,7 @@ nmap -sn 172.16.0.0/12
 
 ---
 
-## 🔗 Additional Resources
+## Additional Resources
 
 - 📺 **Watch the Tutorial:** [IP Addressing & Subnetting — Full Walkthrough in Urdu/Hindi](https://www.youtube.com/@MuhammadAqibTayyab)
 - 🌐 **Previous Module:** [TCP & UDP: Protocol Deep-Dive](https://github.com/AqibTayyab/TCP-UDP-Protocol-Deep-Dive)
@@ -332,7 +332,7 @@ nmap -sn 172.16.0.0/12
 
 ---
 
-## 🙋‍♂️ Author
+## Author
 
 **Muhammad Aqib Tayyab** — AppSec & Purple Team Student | Certified Ethical Hacker | Bug Bounty Hunter
 
